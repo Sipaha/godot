@@ -738,7 +738,7 @@ void PhysicsServer::_bind_methods() {
 
 PhysicsServer::PhysicsServer() {
 
-	ERR_FAIL_COND(singleton != NULL);
+	//ERR_FAIL_COND(singleton != NULL);
 	singleton = this;
 }
 
